@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM --platform=linux/amd64 node:10-slim
 
 # add curl for healthcheck
 RUN apt-get update \
